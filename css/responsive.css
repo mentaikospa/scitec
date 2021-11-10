@@ -1,0 +1,112 @@
+
+@media (max-width:500px) {
+
+
+/* ------------------
+  全体構造
+------------------ */
+    /* 幅調整（横スクロールバーを消す） */
+    .content {
+        width: auto;
+      }
+
+      header .inner {
+        width: auto;
+      }
+
+      main {
+        width: auto;
+      }
+
+    /* コンテンツ（mainとasideの横並びをなくす） */
+    .content {
+        display: block;
+      }
+
+      /* カードデザイン */
+      main .card {
+        display: block;
+        text-align: center;
+      }
+      main .card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      main .card .desc {
+        width: auto;
+      }
+      
+/* ------------------
+  ヘッダー
+------------------ */
+      header .pc-nav {
+        display: none;
+    }
+
+
+/* ------------------
+  メイン
+------------------ */
+      main {
+          margin-bottom: 60px;
+      }
+      .others main {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+/* ------------------
+  サイド
+------------------ */
+      aside {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 60px;
+      }
+
+/* ------------------
+  フッター
+------------------ */
+      footer small br {
+        display: inline;
+      }
+
+/* ------------------
+  トップページ
+------------------ */
+#home main h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#home main p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* ハンバーガーメニュー */
+.hamburger-button {
+  display: flex;
+  background-color: transparent;
+  top: 60px;
+  right: 30px;
+}
+.hamburger-button path {
+  fill: red;
+}
+/* アイコン */
+.hamburger-button svg {
+  width: 50px;
+  height: 50px;
+}
+
+/* ナビゲーション */
+.hamburger-nav {
+  height: 100%;
+}
+.hamburger-nav ul {}
+.hamburger-nav li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+}
